@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(./assest/bg_main.gif) center;
+}
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.topbar{
+    background: #9E5BBA;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+}
+.top_right p{
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    color: white;
+    text-decoration: none;
+}
+/*  <!-- logo part start --> */
+
+.logo{
+    height: 110px;
+   
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+
+}
+.logo_search input{
+    width: 65%;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.logo_search button{
+    border-radius: 15px;
+    font-size: 13px;
+}
+.logo_search button:hover{
+color: green;
+background: yellow;
+}
+button{
+    font-size: 8px;
+    padding: 3px 7px;
+    border:1px solid rgb(231, 76, 14);
+    border-radius: 5%;
+    background: rgba(128, 128, 128, 0.527);
+    
+}
+
+/*  <!-- logo part end --> */
+
+/*  */
+
+.logo_right{
+    padding-top: 30px;
+ }
+ .logo1{
+ border-right: 1px solid rgb(255, 255, 255);
+ padding-right: 5px;
+ 
+ }
+ .logo2{
+     padding-left: 5px;
+ }
+ 
+
+/*  */
+
+.main_menu a{
+    border-right: 1px solid red;
+}
+.main_menu a:hover{
+color: green;
+background: yellow;
+}
+
+/*  */
+.banner{
+    border: 3px solid red;
+    padding: 5px;
+}
+
+/*  */
+/*  */
+
+.slider{
+    margin: 20px 0;
+}
+
+
+
+
+/*  */
+/* ============================ */
+.list{
+    padding-top: 20px;
+}
+
+.list h5{
+    color: #9E5BBA;
+    font-size: 15px;
+}
+
+.list ul{
+    list-style: none;
+   
+}
+.list ul li a{
+    
+text-decoration: none;
+border-bottom: 1px solid green;
+padding: 5px;
+margin-top: 5px;
+color: rgb(47, 63, 151);
+
+
+
+
+}
+/* ============================ */
+/* ==================== */
+
+.btn a{
+    text-decoration: none;
+
+}
+button.btn{
+    background: #ddd;
+    font-size: 14px;
+    border: 1px solid red;
+}
+
+
+form select{
+    width: 65%;
+    padding: 5px;
+}
+
+
+/* ================== */
+.side_video img{
+    height: 200px;
+    width: 100%;
+}
+.side_video h5{
+    background-color:darkgreen ;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+.side_video h6{
+    color:purple;
+    padding-top: 10px;
+}
+/* ==================== */
+
+.fb_left ul li a{
+    font-size: 12px;
+}
+.fb_left p{
+    font-size: 10px;
+    padding-left: 17px;
+}
+/* ============== */
+.fb_right p{
+    font-size: 10px;
+    padding-top: 3px;
+}
