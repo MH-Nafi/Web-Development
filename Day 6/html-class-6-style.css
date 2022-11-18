@@ -1,0 +1,296 @@
+/*Header Part Start*/
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 120px;
+    background: skyblue;
+    
+    }
+    
+    .logo{
+        padding: 15px;
+        float: left;
+    
+    }
+    
+    .logo img{
+        width: 75%;
+        height: 40%;
+    
+    }
+    
+    .menu{
+        float: right;
+        padding-top: 15px;
+    
+    }
+    
+    .menu ul{
+        list-style: none;
+    
+    }
+    
+    .menu ul li{
+        display: inline-block;
+    
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        font-size: 25px;
+        padding-right: 20px;
+    
+    }
+    
+    .menu ul li a:hover{
+        background: red;
+        padding: 10px;
+        color: midnightblue;
+    
+    }
+    /* Header Part End */
+    
+    /* Slider Part Start */
+    .slider{
+        width: 1200px;
+        margin: 0 auto;
+        height: 400px;
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(./Images6/PB.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .slider h1{
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        color: darkred;
+        text-align: center;
+    
+    }
+    
+    .slider p{
+        position: absolute;
+        top: 37%;
+        left: 15%;
+        color: black;
+        text-align: center;
+        font-size: 17px;
+    
+    }
+    .slider a{
+        position: absolute;
+        top: 56%;
+        left: 24%;
+        text-decoration: none;
+        border: 1px solid green;
+        padding: 10px 25px;
+        color: red;
+        font-size: 25px;
+        background: yellow;
+        border-radius: 25px;
+    
+    }
+    /* Slider Part End */
+    
+    /* Hero Part Start */
+    .Hero{
+    width: 1200px;
+    margin: 0 auto;
+    
+    }
+    .service-title{
+        text-align: center;
+        padding-top: 2px;
+        
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+        gap: 3px;
+        
+    
+    }
+    span{
+        color: goldenrod;
+    
+    }
+    .card{
+        text-align: center;
+        padding: 20px;
+        background: lightgreen;
+        border-radius: 20px;
+    
+    }
+    .card a{
+        border: 1px solid green;
+        padding: 5px 17px;
+        color: red;
+        font-size: 15px;
+        background: yellow;
+        border-radius: 25px
+    
+    }
+    .card img{
+        width: 90px;
+        height: 90px;
+        border: 3px solid rgb(112, 244, 114);
+        border-radius: 50%;
+    
+    }
+    .animate{
+        animation: 3s XD linear infinite;
+        position: relative;
+
+    }
+    /* from{background-color: red;}
+        to{background-color: skyblue;} */
+
+        /* 0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;} */
+     @keyframes XD{
+        
+
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:skyblue; left:100px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+
+    }
+
+    /* Hero Part End */
+
+    /* Footer Part Strat */
+    footer{
+        width: 1200px;
+        margin: 0 auto;
+
+    }
+    .footer-main{
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+        gap: 15px;
+        
+
+    }
+    .block img{
+        padding-right: 5px;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 5px;
+    }
+    .block{
+        text-align: center;
+        padding: 5px;
+        background-color: skyblue;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(33%,auto));
+
+    }
+    .block a{
+        text-decoration: none;
+        font-size: 13px;
+        color: blueviolet;
+        padding: 5%;
+
+    }
+    .block a:hover{
+        background: silver;
+        padding: 3px;
+        color: midnightblue;
+
+    }
+    .social a{
+        position: relative;
+        left: 25%;
+        
+
+    }
+    .social h3{
+        text-align: center;
+
+    }
+    .social img{
+        position: relative;
+        top: 10%;
+    }
+    /* Footer Part End */
+
+    /* Extra footer part start */
+    .extra-footer{
+        width: 1200px;
+        margin: 0 auto;
+    
+    }
+    .extra-footer-main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(33%,auto));;
+        gap: .3%;
+    }
+    .extra-footer-card{
+        background-color: beige;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: repeat(auto-fit,minmax(18%,auto));
+
+    }
+    .extra-footer-card img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 21px;
+        margin-right: 7px;
+
+    }
+    .extra-footer-card a{
+        text-decoration: none;
+        font-size: 15px;
+        color: gray;
+        font-weight: 800;
+        position: relative;
+        left: 30%;
+        
+    }
+    .extra-footer-card h2{
+        text-align: center;
+        color: black;
+        
+    }
+    .extra-footer-card h4{
+        text-align: center;
+        color: darkred;
+
+    }
+    .extra-footer-card h4 img{
+        top: 2px;
+        height: 15px;
+        width: 14px;
+
+    }
+    .box img{
+        border: 2px solid rgb(170, 5, 247);
+        padding: 5px;
+
+    }
+    .box img:hover{
+        transform: rotate(360deg);
+        transition: 1s;
+        
+    }
+    .box2 img{
+        border: 2px solid rgb(170, 5, 247);
+        padding: 5px;
+
+    }
+    .box2 img:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+        
+    }
+    /* Extra footer part end */

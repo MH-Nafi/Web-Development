@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* common css end */
+/* header part start */
+.topbar{
+    background: #9E5BBA;
+    height: 30px;
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+
+}
+.top_right p{
+    display: inline-block;
+    border-right: 2px solid white;
+    padding-right: 5px;
+    margin-right: 5px;
+
+}
+.top_right a{
+    color: white;
+    text-decoration: none;
+}
+
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+    
+}
+.logo_left{
+    line-height: 110px;
+
+}
+.logo_search{
+    padding-top: 45px;
+
+}
+.logo_search input{
+    width: 65%;
+    padding: 3px;
+    font-size: 14px;
+
+}
+.button{
+    font-size: 10px;
+
+}
+.logo1 a{
+    display: inline-block;
+    border-right: 2px solid red;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+/* logo part end */

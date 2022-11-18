@@ -1,0 +1,67 @@
+/* Responsive Part Start */
+    /*Header Part Start*/
+   .header{
+       width: 100%;
+       height: 120px;
+       background: rgb(3, 211, 248);
+       }
+       
+       .logo{
+           padding: 8px;
+           display: none;
+       }
+       
+       .logo img{
+           width: 35%;
+           height: 20%;
+       }
+       
+       .menu{
+           padding-top: 5px;
+       
+       }
+   
+       .menu ul li{
+           display: inline-block;
+       }
+       
+       .menu ul li a{
+           font-size: 12px;
+           padding-right: 8px;
+       }
+       
+       .menu ul li a:hover{
+           background: red;
+           padding: 10px;
+           color: midnightblue;
+       }
+       /* Header Part End */
+   
+       /* Slider Part Start */
+   .slider{
+       width: 100%;
+   }
+   .slider h1{
+       position: absolute;
+       top: 30%;
+       left: 15%;
+       color: darkred;
+       text-align: center;
+   }
+   
+   .slider p{
+       position: absolute;
+       top: 37%;
+       left: 15%;
+       color: black;
+       text-align: center;
+       font-size: 17px;
+   }
+   .slider a{
+       top: 56%;
+       left: 39%;
+       border-radius: 70px;
+       font-size: 17px;
+   }
+   /* Slider Part End */
+   /* Responsive Part End */
