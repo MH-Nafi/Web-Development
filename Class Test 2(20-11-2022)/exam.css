@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./assest/bg_main.gif") center;
+}
+
+.cont{
+    width: 1000px;
+    padding:10px auto;
+    margin:0 auto;
+}
+
+.topbar{
+    background: rgb(226, 31, 200);
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+}
+
+.topbar_right p{
+    display: inline-block;
+    padding-right: 2px;
+    border-right: 1px solid white;
+
+}
+
+.topbar_right a{
+    color: white;
+    text-decoration: none;
+}
+/**/
+
+/***/
+.logo{
+    height: 110px;
+   
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_right{
+    padding-top: 20px;
+}
+.logo_search{
+    padding-top: 45px;
+
+}
+.logo_search input{
+    width: 65%;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.logo1 img{
+    border-right: 1px solid lightslategray;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+.logo2{
+    font-size: 12px;
+    color: black;
+    padding-left: 5px;
+}
+.logo_search button{
+    border-radius: 15px;
+    font-size: 13px;
+}
+.logo_search button:hover{
+color: green;
+background: yellow;
+}
+button{
+    font-size: 8px;
+    padding: 3px 7px;
+    border:1px solid rgb(231, 76, 14);
+    border-radius: 5%;
+    background: rgba(128, 128, 128, 0.527);
+}
+/***/
+
+/****/
+.main_menu a{
+    border-right: 1px solid red;
+}
+.main_menu a:hover{
+color: green;
+background: yellow;
+}
+.banner{
+    border: 3px solid red;
+    padding: 5px;
+}
+.slider{
+    margin: 20px 0;
+}
+.list{
+    padding-top: 20px;
+}
+
+.list h5{
+    color: #9E5BBA;
+    font-size: 15px;
+}
+
+.list ul{
+    list-style: none;
+   
+}
+.list ul li a{
+    
+text-decoration: none;
+border-bottom: 1px solid green;
+padding: 5px;
+margin-top: 5px;
+color: rgb(47, 63, 151);
+}
+/****/
+
+/*****/
+.btn a{
+    text-decoration: none;
+
+}
+button.btn{
+    background: #ddd;
+    font-size: 14px;
+    border: 1px solid red;
+}
+form select{
+    width: 65%;
+    padding: 5px;
+}
+.side_video img{
+    height: 200px;
+    width: 100%;
+}
+.side_video h5{
+    background-color:white ;
+    color: purple;
+    padding: 5px;
+    font-size: 20px;
+}
+.side_video h3{
+    color:purple;
+    padding-top: 10px;
+}
+.fb_left ul li a{
+    font-size: 12px;
+}
+.fb_left p{
+    font-size: 10px;
+    padding-left: 17px;
+}
+.fb_right p{
+    font-size: 10px;
+    padding-top: 3px;
+}
+/*****/
+/******/
+.video_main h3{
+    font-size: 13px;
+    color: white;
+    background: green;
+    line-height: 30px;
+}
+.video_main2 h2{
+    font-size: 13px;
+    color: white;
+    background: green;
+    line-height: 30px;
+}
+.video_main img{
+    height: 100px;
+    width: 200px;
+}
+.video_main2 iframe{
+    height: 100px;
+    width: 200px;
+}
+/******/
